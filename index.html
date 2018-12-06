@@ -1,6 +1,37 @@
 <html>
 <head>
   <style>
+    body {
+      background-color: #000000;
+      margin: 0px;
+    }
+    .logo-container {
+      top: calc(50% - 500px);
+      left: calc(50% - 500px);
+      position: absolute;
+      display: inline-block;
+      background-color: #ff7500;
+    }
+    .instagram {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      color: white;
+    }
+    .instagram img {
+      width: 35px;
+      height: 35px;
+    }
+    .youtube img {
+      width: 48px;
+      height: 48px;
+    }
+    .youtube {
+      position: absolute;
+      bottom: 14px;
+      right: 72px;
+      color: white;
+    }
     h1 {
       display: flex;
       height: 100%;
@@ -14,6 +45,18 @@
   </style>
 </head>
 <body>
-  <h1>Indiea</h1>
+  <div class="logo-container">
+    <img src="indiea.svg" alt="Indiea">
+  </div>
+  <div class="instagram">
+    <a href="https://www.instagram.com/indiea___/" target="_blank">
+      <img src="insta.svg" alt="Instagram">
+    </a>
+  </div>
+  <div class="youtube">
+    <a href="https://youtu.be/ioZhIadAi98" target="_blank">
+      <img src="youtube.svg" alt="YouTube">
+    </a>
+  </div>
 </body>
 </html>
